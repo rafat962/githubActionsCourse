@@ -5,10 +5,10 @@ on:
             - "release/**"
         paths:
             - "src/**"
-    pull:
-        branches:
-            - main
-            - "release/**"
+    # pull:
+    #     branches:
+    #         - main
+    #         - "release/**"
 
 jobs:
     test:
