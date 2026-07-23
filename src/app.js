@@ -5,6 +5,6 @@ function greet(name) {
 
 module.exports = greet;
 
-if (require.name == module) {
-    console.log(greet("Test"));
-}
+// if (require.name == module) {
+//     console.log(greet("Test"));
+// }
