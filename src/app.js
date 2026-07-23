@@ -6,5 +6,5 @@ function greet(name) {
 module.exports = greet;
 
 if (require.name == module) {
-    console.log(greet("World"));
+    console.log(greet("World!"));
 }
