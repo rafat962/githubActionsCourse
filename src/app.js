@@ -1,10 +1,10 @@
 function greet(name) {
     // tests 2
-    return `Hello, ${name}`;
+    return `Hello, ${name}!`;
 }
 
 module.exports = greet;
 
 if (require.name == module) {
-    console.log(greet("Test!"));
+    console.log(greet("Test"));
 }
